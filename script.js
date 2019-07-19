@@ -8,11 +8,11 @@ estudante = estudante.toUpperCase();
 
 
 if ( idade >= 60 || aposentado === "SIM"){
-    console.log(`Parabéns ${nome}, você ganhou a entrada gratuita`)
+     console.log(`Parabéns ${nome}, você ganhou a entrada gratuita`)
 }
 
 else if(idade >= 18 && idade <= 59 && estudante === "SIM" ){
-    Console.log(`${nome}, você irá pagar uma meia entrada no valor de R$17,50 por ter ${idade} anos e ser estudante!`)
+    console.log(`${nome}, você irá pagar uma meia entrada no valor de R$17,50 por ter ${idade} anos e ser estudante!`)
 }
 
 else if (idade >= 18 && idade <= 59){
@@ -30,3 +30,45 @@ else if (idade >0 && idade <=12){
 else {
     console.log("erro")
 }
+
+
+let numeros = Number(prompt("Digite um número de 1 á 7"));
+
+let n1 = 1;
+let n2 = 2;
+let n3 = 3;
+let n4 = 4;
+let n5 = 5;
+let n6 = 6;
+let n7 = 7;
+
+if(numeros === 1){
+    console.log(`O dia ${n1} é domingo`);
+}
+
+else if (numeros === 2){
+    console.log(`O dia ${n2} é segunda-feira`);
+}
+
+else if (numeros === 3){
+   console.log(`O dia ${n3} é terça-feira`);
+}
+
+else if (numeros === 4){
+    console.log(`O dia ${n4} é quarta-feira`);
+ }
+
+ else if (numeros === 5){
+    console.log(`O dia ${n5} é quinta-feira`);
+ }
+
+ else if (numeros === 6){
+    console.log(`O dia ${n6} é sexta-feira`);
+ }
+
+ else if (numeros === 7){
+    console.log(`O dia ${n7} é sábado`);
+ }
+
+ else {
+    console.log("ERRO");}
